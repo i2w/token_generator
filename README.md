@@ -24,6 +24,8 @@ The `token` method takes an integer (default `20`) which is the number of charac
 
 Its second argument is the group size (default `5`).  If you don't want groups, pass `0`.
 
+    require 'token_generator'
+
     TokenGenerator.token
     # => "PXQE2-ZQWTN-PVFQ9-KYWNC"
 
